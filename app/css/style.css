@@ -1,0 +1,215 @@
+@font-face {
+  font-family: montserrat-b;
+  src: url(../fonts/Montserrat-ExtraBold.ttf); }
+
+@font-face {
+  font-family: montserrat-sb;
+  src: url(../fonts/Montserrat-SemiBold.ttf); }
+
+@font-face {
+  font-family: montserrat-l;
+  src: url(../fonts/Montserrat-Light.ttf); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.p1 {
+  color: white;
+  font-family: montserrat;
+  font-size: 3.6vw; }
+
+.p2 {
+  color: #f5d445;
+  font-family: montserrat-b;
+  font-size: 6.6vw; }
+
+.p3 {
+  color: white;
+  font-family: montserrat;
+  font-size: 1.4vw;
+  margin-top: 3.3vw;
+  direction: rtl;
+  text-align: justify; }
+
+.p4 {
+  color: white;
+  font-family: montserrat-b;
+  font-size: 6.6vw;
+  clear: both; }
+
+.p5 {
+  font-family: montserrat-b; }
+
+.black {
+  color: black; }
+
+hr {
+  border: 0; }
+
+body article #company, body article #business, body article #headline, body article #logo {
+  width: 100%;
+  padding-left: 45%; }
+
+body article #business, body article #headline, body article #logo {
+  padding-right: 9%; }
+
+body article #company {
+  height: 27.3vw;
+  background-color: white;
+  padding-top: 10.25vw; }
+  body article #company #box {
+    width: 18%;
+    background: #f8d749;
+    margin-left: 20px; }
+  body article #company div {
+    float: right;
+    height: 9vw; }
+    body article #company div p {
+      color: #f5d445;
+      font-family: montserrat;
+      font-size: 2.7vw;
+      text-transform: uppercase;
+      text-align: right;
+      line-height: 4vw;
+      font-weight: bold; }
+
+body article #business {
+  height: 44.7vw;
+  background-color: #24242a;
+  padding-top: 6.6vw;
+  text-align: right;
+  position: relative; }
+  body article #business hr {
+    width: 33%;
+    height: 2vw;
+    background: #c1bab5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: "";
+    left: "";
+    border: 0; }
+
+body article #headline {
+  height: 62vw;
+  background-color: "";
+  padding-top: 5vw;
+  text-align: right;
+  background-image: url("../images/background1.jpg");
+  background-size: cover;
+  z-index: 2;
+  position: relative; }
+  body article #headline #rectangle {
+    width: 3%;
+    height: 5.4vw;
+    background: white;
+    float: right;
+    margin: 3vw 0; }
+  body article #headline #layout {
+    width: 64.5%;
+    height: 62vw;
+    background: rgba(81, 179, 227, 0.5);
+    position: absolute;
+    top: "";
+    right: 0;
+    bottom: 0;
+    left: "";
+    z-index: -1; }
+
+body article #logo {
+  height: 18vw;
+  background-color: #406375;
+  padding-top: 6vw; }
+  body article #logo span {
+    width: 6vw;
+    margin-right: 11%; }
+    body article #logo span img {
+      width: 6vw;
+      vertical-align: middle; }
+    body article #logo span:last-child {
+      margin-right: 0; }
+    body article #logo span:first-child img {
+      width: 11vw; }
+
+body article #panel {
+  width: 35.5%;
+  height: 152vw;
+  position: absolute;
+  top: 0;
+  right: "";
+  bottom: "";
+  left: 0;
+  z-index: 3; }
+  body article #panel #panel-text {
+    width: 80%;
+    height: 70%;
+    background: rgba(245, 207, 0, 0.8);
+    color: white;
+    margin-left: 20%; }
+    body article #panel #panel-text #company-panel {
+      height: 27.3vw;
+      padding: 7vw 15%; }
+      body article #panel #panel-text #company-panel p:first-child {
+        color: white;
+        font-family: montserrat-b;
+        font-size: 7.5vw; }
+      body article #panel #panel-text #company-panel p:last-child {
+        color: white;
+        font-family: montserrat-l;
+        font-size: 2.2vw; }
+    body article #panel #panel-text #business-panel {
+      height: 44.7vw;
+      padding: 22vw 15%; }
+      body article #panel #panel-text #business-panel hr {
+        width: 35%;
+        height: 2vw;
+        background: white;
+        margin-bottom: 3vw; }
+      body article #panel #panel-text #business-panel p {
+        color: white;
+        font-family: montserrat;
+        font-size: 1.4vw; }
+    body article #panel #panel-text #headline-panel {
+      padding: 9vw 15%; }
+      body article #panel #panel-text #headline-panel hr {
+        width: 35%;
+        height: 2vw;
+        background: white;
+        margin-bottom: 3vw; }
+      body article #panel #panel-text #headline-panel p {
+        color: white;
+        font-family: montserrat-sb;
+        font-size: 2.5vw; }
+  body article #panel #contact {
+    width: 100%;
+    height: 30%;
+    background: #24242a;
+    padding-left: 20%;
+    padding-top: 10vw;
+    color: white; }
+    body article #panel #contact p {
+      color: #d9b807;
+      font-family: montserrat-b;
+      font-size: 1.7vw;
+      margin-top: 6vw; }
+    body article #panel #contact .row-contact {
+      clear: both;
+      margin-bottom: 4vw;
+      display: table; }
+      body article #panel #contact .row-contact .icon-contact {
+        margin-right: 3vw;
+        height: 2.7vw;
+        float: left;
+        display: table; }
+        body article #panel #contact .row-contact .icon-contact img {
+          width: 3vw; }
+      body article #panel #contact .row-contact .info-contact {
+        float: left;
+        vertical-align: middle;
+        color: white;
+        font-family: montserrat;
+        font-size: 1.7vw; }
+      body article #panel #contact .row-contact .fix {
+        line-height: 3.7vw; }
