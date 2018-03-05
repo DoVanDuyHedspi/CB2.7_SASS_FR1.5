@@ -1,6 +1,6 @@
 # Bài tập Trainee Colombo 2018
 
-## Thự hành Gulp
+## Thực hành Gulp
 
 Viết ngắn lại cấu trúc css bài chuẩn bị front end  1.5 với sass.
 
