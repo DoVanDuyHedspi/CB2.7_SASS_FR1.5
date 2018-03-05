@@ -1,6 +1,6 @@
 # Bài tập Trainee Colombo 2018
 
-## KHANHLQ-Frontent-2.7.1
+## Thự hành Gulp
 
 Viết ngắn lại cấu trúc css bài chuẩn bị front end  1.5 với sass.
 
@@ -17,7 +17,9 @@ Thực hiện bởi [Đỗ Văn Duy](https://github.com/DoVanDuyHedspi)
 
 ## Kiến thức nắm được
 
-Cách viết sass
+Thực hành cơ bản về SASS, Gulp
+Nắm được cấu trúc bố trí phân chia file khi dùng sass
+Biết các tạo các biến khi dự liệu được sẽ có thay đổi thì các giá trị đó đồng bộ với nhau : ví dụ màu sắc, padding, break point,...
 
 ## Todo
 
