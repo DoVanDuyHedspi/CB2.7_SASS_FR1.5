@@ -18,7 +18,9 @@ Thực hiện bởi [Đỗ Văn Duy](https://github.com/DoVanDuyHedspi)
 ## Kiến thức nắm được
 
 Thực hành cơ bản về SASS, Gulp
+
 Nắm được cấu trúc bố trí phân chia file khi dùng sass
+
 Biết các tạo các biến khi dự liệu được sẽ có thay đổi thì các giá trị đó đồng bộ với nhau : ví dụ màu sắc, padding, break point,...
 
 ## Todo
